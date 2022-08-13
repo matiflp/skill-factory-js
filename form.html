@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/form.css" type="text/css" />
+    <title>Llenar Formulario</title>
+</head>
+<body>
+    <div class="container-form">
+        <a href="./index.html" class="buttons">Volver</a>
+        <div id="form">
+            <form>
+                <label for="name">
+                    Nombre
+                </label>
+                <input id="name" class="form-data" type="text" name="name" placeholder="Ingrese su nombre" />
+                <label for="email">
+                    Correo Electronico
+                </label>
+                <input id="email" class="form-data" type="email" name="email" placeholder="Ingrese su email" />
+                <label for="comment">
+                    Indica tu consulta
+                </label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Ingrese un comentario..." ></textarea>
+                <button class="button" onclick="formData()" type="button">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/form.js"></script>
+</body>
+</html>

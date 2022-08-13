@@ -1,0 +1,45 @@
+.container-cards{
+    display: flex;
+}
+
+#cards{
+    background-color: #000;
+    margin: 10px auto;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.tarjeta{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+border: 1px solid lightgray;
+box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+border-radius:15px;
+margin: 20px;
+font-family: sans-serif;
+}
+
+.titulo{
+font-size: 24px;
+padding: 10px 10px 0 10px;
+text-align: center;
+color: azure;
+}
+
+.cuerpo{
+padding: 10px;
+object-fit: cover;
+object-position: center;
+}
+
+.pie{
+background: #702573;
+border-radius:0 0 15px 15px;
+padding: 10px;
+color:azure;
+text-align:center;
+} 
